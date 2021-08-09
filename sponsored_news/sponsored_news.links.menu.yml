@@ -1,0 +1,11 @@
+sponsored_news.settings:
+  title: Sponsored news
+  parent: system.admin_config
+  description: 'Sponsored news Settings'
+  route_name: sponsored_news.settings
+
+sponsored_news.settings.import:
+  title: Import
+  parent: sponsored_news.settings
+  description: 'Import sponsored news'
+  route_name: sponsored_news.settings.import

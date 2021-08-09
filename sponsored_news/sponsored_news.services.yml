@@ -1,0 +1,3 @@
+services:
+  sponsored_news:
+    class: Drupal\sponsored_news\SponsoredNews\SponsoredNews

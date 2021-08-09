@@ -1,0 +1,9 @@
+{%  if admin_link %}
+  {{  admin_link }}
+{% endif %}
+<h2>Sponsored news</h2>
+{% for item in items %}
+  <div>
+    {{ item }}
+  </div>
+{% endfor %}

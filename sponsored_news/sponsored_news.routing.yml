@@ -1,0 +1,23 @@
+sponsored_news.settings:
+  path: '/admin/config/sponsored-news'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Sponsored news'
+  requirements:
+    _permission: 'access sponsored_news settings'
+
+sponsored_news.settings.import:
+  path: '/admin/config/sponsored-news/import'
+  defaults:
+    _controller: '\Drupal\sponsored_news\Controller\SponsoredNewsController::settingsImport'
+    _title: 'Import'
+  requirements:
+    _permission: 'access sponsored_news settings'
+
+sponsored_news.listing:
+  path: '/sponsored-news'
+  defaults:
+    _controller: '\Drupal\sponsored_news\Controller\SponsoredNewsController::listing'
+    _title: 'Sponsored news'
+  requirements:
+    _access: 'TRUE'

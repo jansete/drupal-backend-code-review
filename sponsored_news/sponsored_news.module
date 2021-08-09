@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function sponsored_news_theme($existing, $type, $theme, $path) {
+  return [
+    'sponsored_news_listing' => [
+      'variables' => [
+        'items' => [],
+        'admin_link' => NULL,
+      ],
+    ],
+  ];
+}
