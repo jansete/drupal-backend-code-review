@@ -25,7 +25,7 @@ Para simplificar este code review:
   * La maquetación y configuración de los nodos 'article' con view mode 'teaser'.
   * El procesado de los ficheros XML, para ello hemos añadido un trait que generará nodos a modo de mock.
 
-Para nosotros, lo importante de este code review es entender como piensas. Queremos saber que consideras importante y que no, que crees que podría mejorarse y que crees que está bien como está.
+Para nosotros, lo importante de este code review es entender cómo piensas. Queremos saber qué consideras importante y qué no, qué crees que podría mejorarse y qué crees que está bien como está.
 
 Si tienes dudas entre comentar algo porque es algo que en un proyecto real no comentarías, hazlo. Sabemos que en este code review falta un montón de contexto sobre consensos que tendrías con tu equipo en una situación real, por lo que cualquier comentario nos va a servir mejor para entenderte.
 
